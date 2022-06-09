@@ -1,0 +1,754 @@
+
+
+/* {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+} */
+
+
+
+/*------------------------------------ General Site Changes ------------------------------------*/
+
+body {
+	background-color: white;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+
+
+.divider-line {
+	border-bottom: 3px solid #ff9f56;
+	width: 70rem;
+	margin: 0 auto;
+	padding-top: 5rem;
+	margin-bottom: 1.5rem;
+}
+
+
+
+
+/*---------------------------------- Top Page Logo Section ------------------------------------*/
+
+.top-logo {
+	height: 17rem;
+	background-color: white;
+	display: flex;
+	align-items: flex-end;
+}
+
+
+.logo-box {
+	width: 800px;
+}
+
+
+.site-logo {
+	padding-left: 1rem;
+	padding-top: 3rem;
+}
+
+
+
+.tagline {
+	color: #ff9f56;;
+	font-weight: 600;
+	padding-left: 2.2rem;
+	padding-bottom:	3rem;
+}
+
+
+
+/*------------------------------- Top Page Navigation & Header Image--------------------------------*/
+
+
+.list-top-nav {
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	background-color: #e85858;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+
+.list-top-nav  li {
+	font-weight: 600;
+}
+
+.hide {
+	display: none;
+}
+
+a {
+	color: white;
+}
+
+
+a:hover {
+	color: #56ffff;
+	text-decoration: none;
+}
+
+
+.header-image-flavours {
+	padding-top: 13rem;
+	padding-bottom: 13rem;
+	/*margin-bottom: 6rem;*/
+	background: url(../img/icecream-header2.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+h1 {
+	color: white;
+	font-weight: 600;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	
+}
+
+.h1-box a:hover {
+	color: #ff9f56;
+}
+
+
+
+.h1-box {
+	margin: 0 auto;
+	background-color: #26c5c59d;
+	width: 400px;
+}
+
+
+/*---------------------------------- What Makes Us Special Section ------------------------------------*/
+
+
+.wmus-section {
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 5rem;
+	background-color: #ff9f56;
+}
+
+
+/* What Makes Us Special - Line */
+.wmus-section h2 {
+	color: rgb(148, 255, 255);
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+/* Experience Moo-Free Creamy Dreamy Goodness! - Line */
+.wmus-section h3 {
+	color: rgb(148, 255, 255);
+	font-size: 20px;
+	font-weight: 600;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+.wmus-blurb {
+	margin: 0 auto;
+	color: rgb(255, 255, 255);
+	max-width: 420px;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+}
+
+
+
+
+
+/* ------------------------------------- Our Shop Section --------------------------------- */
+
+
+.ourshop-section {
+	height: 72rem;
+	padding-top: 4rem;
+	margin-left: 8rem;
+	margin-right: 8rem;
+}
+
+.ourshop-section h2 {
+	text-align: center;
+	font-size: 30px;
+	color: #e85858;
+	font-weight: 600;
+	padding-bottom: 4rem;
+}
+
+
+.ourshop-section p {
+	color: #00133d;
+	font-size: 16px;
+	font-weight: 600;
+	max-width: 50ch;
+	min-width: 35ch;
+	line-height: 1.5;
+	padding: 2rem;
+}
+
+
+.ourshop-blurbbox {
+	background-color: #ffd1b3b2;
+}
+
+
+.ourshop-blurbtwobox {
+	background-color: #ffbe7385;
+}
+
+
+/*------ Our Shop - Images ------*/
+
+.our-shop-pic {
+	max-width: 600px;
+	float: right;
+}
+
+.our-icecream {
+	max-width: 700px;
+	min-width: 400px;
+	max-height: 400px;
+	min-height: 200px;
+}
+
+/*--------------------------------*/
+
+
+
+
+.toprow-ourshop {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 2rem;
+}
+
+
+
+.bottomrow-ourshop {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+
+
+
+
+/* --------------------------------------- Social Media Section ----------------------------------- */
+
+
+.socialmedia-section {
+	height: 65rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+.list-socialmedia {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 2rem;
+	font-size: 24px;
+	color: #e85858;
+	margin-left: 7rem;
+	margin-right: 3.5rem;
+}
+
+
+
+.list-socialmedia h2 {
+	padding-right: 6rem;
+	font-weight: 600;
+}
+
+.list-socialmedia h3 {
+	padding-right: 3rem;
+}
+
+.nomu-fblink {
+	display: inline;
+	margin-bottom: 6rem;
+}
+
+
+.socialmediasection-fbicon {
+	width: 30px;
+}
+
+
+.socialmedia-rowone {
+	display: flex;
+	justify-content: center;
+	margin-left: 7rem;
+	margin-right: 7rem;
+}
+
+
+.socialmedia-rowtwo {
+	display: flex;
+	justify-content: center;
+	margin-left: 7rem;
+	margin-right: 7rem;
+}
+
+.insta-pic {
+	padding: 0.3rem;
+}
+
+.list-socialmedia a{
+	color: #e85858;
+}
+
+.list-socialmedia a:hover {
+	text-decoration: underline;
+}
+
+
+
+/*------------------------------------------ Footer -----------------------------------------*/
+
+
+/*---------- FOOTER - General Changes ----------*/
+
+footer {
+	height: 30rem;
+	background-color: #e85858;
+	color: white;
+}
+
+
+.footer-blocks {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-grow: 0;
+} 
+
+
+
+.left-column,
+.middle-column,
+.right-column,
+.footer-photo {
+	flex: 1;
+}
+
+/*--------------------------------------------*/
+
+
+/*-------- FOOTER - Column 1 (far left - logo/address/phone) --------*/
+
+.footer-logo-box {
+	background-color: #fff1e4;
+	border-radius: 5px;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-right: 0.8rem;
+	margin-top: 2rem;
+	margin-left: 2rem;
+	max-width: 200px;
+}
+
+.nomu-logo-short {
+	width: 100%;
+}
+
+
+.address {
+	margin-left: 1rem;
+	margin-top: 2rem;
+}
+
+.phone {
+	margin-left: 1rem;
+}
+
+
+.left-column {
+	flex-grow: 1.2;
+}
+
+
+.left-column p {
+	padding-left: 1rem;
+}
+
+
+.left-column > li {
+	line-height: 2;
+}
+
+
+/*------------ FOOTER - Legal Stuff -----------*/
+
+.legal-stuff {
+	padding-left: 1rem;
+	margin-top: 3rem;
+	line-height: 1.5;
+	
+}
+
+.legal-stuff a {
+	color: #ffcc91;
+}
+
+.legal-stuff a:hover {
+	text-decoration: underline;
+}
+
+/*---------------------------------------------*/
+
+
+
+
+/*-------- FOOTER - Column 2 ('centre' - navigation) --------*/
+
+.middle-column {
+	flex-grow: 1;
+	margin-left: 6rem;
+}
+
+
+.list-middlecolumn {
+	display: block;
+	padding-top: 2rem;
+}
+
+
+.list-middlecolumn li {
+	line-height: 2;
+	font-weight: 600;
+}
+/*-----------------------------------------------*/
+
+
+
+
+/*-------- FOOTER - Column 3 ('right'- hours) --------*/
+
+.right-column {
+	flex-grow: 1;
+	line-height: 1.5;
+}
+
+
+.list-rightcolumn {
+	line-height: 2;
+}
+
+
+.right-column p {
+	padding-bottom: 1rem;
+	line-height: 1.5;
+}
+
+
+
+.hours {
+	font-weight: 600;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+/*-----------------------------------------------*/
+
+
+
+
+/*-------- FOOTER - Social Media Icons --------*/
+
+.socialmedia-icons {
+	text-align: center;
+	display: flex;
+	align-content: center;
+	padding-top: 3rem;
+	padding-right: 3rem;
+}
+
+
+.socialmedia-icons img {
+	width: 89px;
+	height: 40px;
+	padding-right: 3rem;
+
+}
+/*------------------------------------------------*/
+
+
+
+
+/*---------- FOOTER - Ice Cream Photo ------------*/
+
+.footer-photo{
+	flex-grow: 1;
+}
+
+
+.footer-icecream {
+	width: 64%;
+	padding-top: 2rem;
+	
+}
+/*------------------------------------------------*/
+
+
+/*--------------------------------------------Media Queries----------------------------------------------*/
+
+
+
+@media(max-width:1080px) {
+
+	.toprow-ourshop {
+		display: block;
+	}
+
+	.bottomrow-ourshop {
+		display: block;
+	}
+
+
+	.ourshop-blurbbox {
+		margin-top: 2rem;
+		max-width: 530px;
+		min-width: 371px;
+	}
+
+
+	.ourshop-blurbtwobox {
+		margin-bottom: 2rem;
+		max-width: 530px;
+		min-width: 371px;
+	}
+
+	.footer-blocks {
+		height: 110rem;
+	}
+
+
+
+}
+
+
+
+@media(max-width:820px) {
+	
+
+	.list-top-nav li {
+		display: none;
+	}
+	
+
+	.hide {
+		display: inline;
+	}
+
+	.wmus-section {
+		height: 36rem;
+
+	}
+
+
+	.ourshop-section {
+		height: 100rem
+	}
+
+
+	.divider-line {
+		margin-top: 20rem;
+		text-align: center;
+		width: 650px;
+	}
+
+
+	.socialmedia-section {
+		height: 65rem;
+	}
+
+
+	.ourshop-blurbbox {
+		margin-top: 2rem;
+	}
+
+
+	.ourshop-blurbtwobox {
+		margin-bottom: 2rem;
+	}
+
+
+}
+
+
+
+@media(max-width:500px) {
+	
+	body {
+		display: block;
+	}
+
+
+	footer {
+		display: block;
+		height: 100rem;
+	}
+
+	.footer-blocks {
+		display: block;
+		text-align: center;
+	}
+
+	.footer-icecream {
+		display: none;
+	}
+
+	.right-column {
+		padding: 0;
+	}
+
+	.socialmedia-icons img {
+		display: flex;
+		justify-content: center;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
